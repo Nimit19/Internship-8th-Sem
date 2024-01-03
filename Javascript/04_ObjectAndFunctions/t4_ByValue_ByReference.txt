@@ -1,0 +1,13 @@
+By Value:
+-> In pass-by value in JavaScript, a copy of the original variable is created, so any changes made to the copied variable do not affect the original variable.
+-> All Primitive 
+
+By Reference:
+-> In pass-by reference in JavaScript, we pass the reference of the actual parameter. No copy is created in the memory.
+-> All Object including the Function
+
+Mutate:
+-> To Change Something.
+
+Immutable:
+-> means it can't be changed.

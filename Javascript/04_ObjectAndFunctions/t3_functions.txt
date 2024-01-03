@@ -1,0 +1,15 @@
+First Class Function:
+-> everything you can do with other types you can do with functions.
+-> Assign them to variable, Pass them around, create them on th fly.  
+
+Function:
+-> functions are object in JavaScript.
+
+Expression:
+-> A Unit of code that results in a value.
+-> A function expression associates a value with a variable, just like any other assignment statement. function expressions load only when the interpreter reaches the definition of the function.
+
+Statements:
+-> A function statement loads before any code is executed. This behavior of function statements is called hoisting, which allows a function to be used before it is defined.
+  
+

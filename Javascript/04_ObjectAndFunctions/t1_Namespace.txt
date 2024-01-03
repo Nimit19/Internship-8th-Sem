@@ -1,0 +1,3 @@
+Namespace:
+-> A Container for variable and functions.
+-> Typically to keep variable and function with the same name separate.

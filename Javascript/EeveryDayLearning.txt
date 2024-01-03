@@ -1,0 +1,24 @@
+Name: Nimit Patel
+Date: 03/01/2024
+Time spent: 8Hours
+
+Today's task:
+1. Types 
+    1. Dynamic Typing
+    2. Static Typing
+2. Primitive types
+3. Operators 
+4. Operator Precedence and Associativity
+5. Coercion
+6. Comparison Operator
+7. Default Value
+8. Objects
+9. The dot operator
+10. Object literal
+11. Faking namespaces
+12. JSON Format
+13. Functions
+14. Functions Statements
+15. Functions Expression
+16. Pass by Value 
+17. Pass by Reference

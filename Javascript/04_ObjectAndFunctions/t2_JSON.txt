@@ -1,0 +1,14 @@
+JSON: JavaScript Object Notation
+example:
+{
+    "name": 'Nimit',
+    "age": 19,
+    "address": {
+      "village": 'Chikhla',
+      "city": 'Valsad',
+    }
+}
+
+Note:
+-> JSON is technically a subset of Object literal.
+-> All JSON syntax is valid for Object literal but not all object literal Syntax is valid JSON
