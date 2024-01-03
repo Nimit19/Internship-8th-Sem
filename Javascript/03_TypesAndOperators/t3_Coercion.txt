@@ -1,0 +1,21 @@
+Coercion:
+-> Converting a value from one type to another.
+
+String coercion:
+-> String coercion takes place while using the ‘ + ‘ operator. When a number is added to a string, the number type is always converted to the string type.
+-> ‘ + ‘ operator when used to add two numbers, outputs a number. The same ‘ + ‘ operator when used to add two strings, outputs the concatenated string.
+-> Type coercion also takes place when using the ‘ - ‘ operator, but the difference while using ‘ - ‘ operator is that, a string is converted to a number and then subtraction takes place.
+
+Boolean Coercion:
+-> Boolean coercion takes place when using logical operators, ternary operators, if statements, and loop checks. 
+-> To understand boolean coercion in if statements and operators, we need to understand truthy and falsy values.
+-> Truthy values are those which will be converted (coerced) to true. Falsy values are those which will be converted to false.
+
+Note: All values except false, 0, 0n, -0, “”, null, undefined, and NaN are truthy values.
+
+Equality Coercion:
+-> Equality coercion takes place when using ‘ == ‘ operator. 
+
+Note:
+false = 0
+true = 1

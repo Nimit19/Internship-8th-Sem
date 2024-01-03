@@ -1,0 +1,12 @@
+Operators:
+-> A Special Function that is syntactically differently.
+-> take two parameters and generate the result.
+
+Operator Precedence:
+-> Which Operator function gets called first.
+-> function are called in order of precedence.
+
+Associativity:
+-> What order Operator functions get called in when function have the same precedence as:
+1. left to right
+2. right to left

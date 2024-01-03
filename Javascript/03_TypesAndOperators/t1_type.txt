@@ -1,0 +1,19 @@
+Types
+
+1. Dynamic Typing:
+-> You don't tell the engine what type of data a variable holds, it Figures it out while your code is running. 
+
+2. Static Typing:
+-> You have to tell the engine what kind of data you intend to hold inside a variable.
+
+~> Javascript is a dynamic Typing.
+
+Primitive types:
+-> A type of data that represents single value.
+1. undefined
+2. null
+3. boolean
+4. number
+5. string
+6. symbol
+
