@@ -22,3 +22,6 @@ Today's task:
 15. Functions Expression
 16. Pass by Value 
 17. Pass by Reference
+
+Blockers:
+Nothing
