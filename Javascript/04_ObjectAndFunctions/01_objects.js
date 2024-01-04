@@ -39,4 +39,23 @@ console.log(person["address"]["city"]); // Valsad
 // here . and [] has same precedence so we use left to right associativity
 console.log(person["address"].city); // Valsad
 
+console.log(Object.keys(person)); // [ 'name', 'age', 'address' ]
+console.log(Object.values(person)); // ['Nimit', 19,{house_no: '808', village: 'Chikhla',city: 'Valsad', state: 'Gujarat'}]
+console.log(Object.values(person.name)); // [ 'N', 'i', 'm', 'i', 't' ]
+console.log(Object.entries(person));
+// [
+//     [ 'name', 'Nimit' ],
+//     [ 'age', 19 ],
+//     [
+//       'address',
+//       {
+//         house_no: '808',
+//         village: 'Chikhla',
+//         city: 'Valsad',
+//         state: 'Gujarat'
+//       }
+//     ]
+//   ]
+
+
 

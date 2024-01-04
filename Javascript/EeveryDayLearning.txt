@@ -25,3 +25,28 @@ Today's task:
 
 Blockers:
 Nothing
+________________________________________________________________________________________
+
+Name: Nimit Patel
+Date: 04/01/2024
+Time spent: 8Hours
+
+Today's task:
+1. this Keyword
+2. Arrays
+3. Arguments
+4. Spread
+5. Function Overloading
+6. Syntax Parser
+7. Automatic Semicolons Insertion
+8. Whitespace
+9. Immediately Invoked Function Expressions (IIFEs)
+10. Closure
+11. Function Factories
+12. Callbacks
+13. call(), apply() and bind()
+14. Function Currying
+
+Blockers:
+Nothing
+________________________________________________________________________________________
