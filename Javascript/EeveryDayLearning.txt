@@ -57,8 +57,19 @@ Time spent: 8Hours
 
 Today's task:
 1. Functional Programming
-2. 
+2. Classical Inheritance
+3. Prototypal Inheritance
+4. Understanding the Prototype
+5. Everything is an Object
+6. Reflection and Extend
+7. new Operator
+8. Function Constructors
+9. Built-in Functions Constructors 
+10. Arrays and for..in
+11. Es6 and Classes
+12. typeof and instanceof
+13. Strict mode
 
 Blockers:
-Nothing
+Reflection and Extend
 ________________________________________________________________________________________
