@@ -13,3 +13,8 @@ Statements:
 -> A function statement loads before any code is executed. This behavior of function statements is called hoisting, which allows a function to be used before it is defined.
   
 
+Function Borrowing:
+-> It means using a method from one object and applying it to another object.
+
+Function Currying:
+-> Creating a copy of a function but with some preset parameters.
