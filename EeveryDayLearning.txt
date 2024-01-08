@@ -74,3 +74,25 @@ Blockers:
 Reflection and Extend
 ________________________________________________________________________________________
 
+Name: Nimit Patel
+Date: 08/01/2024
+Time spent: 8Hours
+
+Today's task:
+1. Promise
+2. Async/Await 
+3. Foreach Helper
+4. map Helper
+5. filter Helper
+6. find Helper
+7. every Helper
+8. some Helper
+9. reduce Helper
+
+Blockers:
+nothing
+________________________________________________________________________________________
+
+// 1. HOW TO CONVERT OBJECT IN ARRAYS
+// 2. MAP FILTER REDUCE 
+// 3. SPLIT SLICE DEEP CLONE
