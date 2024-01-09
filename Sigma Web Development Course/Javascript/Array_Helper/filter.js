@@ -32,7 +32,6 @@ var marks = [
 ]
 
 function getTopperStudent(student, marks){
-
     return marks.filter(function(stud){
         return student.name === stud.fname;
     });

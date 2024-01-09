@@ -92,6 +92,27 @@ Today's task:
 Blockers:
 nothing
 ________________________________________________________________________________________
+Name: Nimit Patel
+Date: 09/01/2024
+Time spent: 8Hours
+
+Today's task:
+1. const,var and let 
+2. Template String
+3. Enhanced Object literal
+4. rest operator
+5. spread operator
+6. Destructuring Object
+7. Destructuring Arrays
+
+
+Blockers:
+nothing
+_____________
+
+
+
+
 
 // 1. HOW TO CONVERT OBJECT IN ARRAYS
 // 2. MAP FILTER REDUCE 

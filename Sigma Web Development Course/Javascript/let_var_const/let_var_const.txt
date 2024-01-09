@@ -1,0 +1,12 @@
+
+var:
+-> The keyword 'Var' has a function scope. Anywhere in the function, the variable specified using var is accessible.
+-> It can be redeclare within the same scope.
+
+let:
+-> ‘let’ the scope of a variable declared with the 'let' keyword is limited to the block in which it is declared.
+-> It can be reassign but can not be redeclare.
+
+const:
+-> const keyword has a block scope. It can not be reassign or redeclare.
+
