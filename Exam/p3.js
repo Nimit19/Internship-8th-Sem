@@ -1,11 +1,24 @@
-function privateCounter(){
-    var counter = 0;
-    return function inner(){
-        counter++;
-        console.log(counter);
-    }
-}
+function  privateCounter ()  {
+  var counter = 0;
 
-var c = privateCounter();
-c();
-c();
+  function add() {
+    counter++;
+  }
+
+  function sub() {
+    counter--;
+  }
+
+  function print() {
+    console.log(counter);
+  }
+  return {add, sub, print};
+};
+
+let  c = privateCounter();
+c.add();
+c.add();
+c.add();
+c.print();
+c.sub();
+c.print();
