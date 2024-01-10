@@ -22,7 +22,6 @@ p1.then((val) => {
       resolve(95);
     }, 3000);
   });
-
   return p2;
 })
   .then((val) => {

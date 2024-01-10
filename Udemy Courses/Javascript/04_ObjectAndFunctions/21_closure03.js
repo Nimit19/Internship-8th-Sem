@@ -16,6 +16,6 @@ function buildFunction() {
 
 var fs = buildFunction();
 
-fs[0](); // 3
-fs[1](); // 3
-fs[2](); // 3
+fs[0](); // 0
+fs[1](); // 1
+fs[2](); // 2

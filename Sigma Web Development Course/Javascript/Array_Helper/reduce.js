@@ -2,7 +2,7 @@ var nums = [1, 2, 3, 4, 5];
 
 var getSum = nums.reduce(function (sum, num) {
   return sum + num;
-});
+},10);
 
 console.log("Sum: ", getSum);
 

@@ -8,3 +8,5 @@ console.log(a);
     console.log("Hello " + firstName + " " + lastName);
     
 }("Nimit","Patel")) // IIFEs
+
+

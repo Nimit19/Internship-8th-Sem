@@ -8,13 +8,11 @@ let p = new Promise((resolve, reject) => {
 });
 
 p.then((val) => {
-    console.log("I am handler 1 with value: "+ val);
-    
+    console.log("I am handler 1 with value: "+ val);   
 });
 
 p.then((val) => {
     console.log("I am handler 2 with value: "+ val);
-    
 });
 
 p.then((val) => {
