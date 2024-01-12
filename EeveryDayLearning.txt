@@ -108,12 +108,48 @@ Today's task:
 
 Blockers:
 nothing
-_____________
+________________________________________________________________________________________
+
+Name: Nimit Patel
+Date: 11/01/2024
+Time spent: 8Hours
+
+Today's task:
+1. How the web works
+2. The Role of Html and css
+3. Doctype and basic layout
+4. Meta Tags and Search Engine
+5. Heading, Paragraphs and Typography
+6. links, image and attributes
+7. list and table
+8. forms 
+9. Block and Inline element
+10. div and span
+11. id and class
+12. Html Entities
+13. Html Semantic Tags
+14. Video, Audio and Media in Html
+15. Implementation Css
+16. Basic Css Selectors
+17. Dev tools introduction
+
+Blockers:
+nothing
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 12/01/2024
+Time spent: 8 Hours
+
+Today's task:  
 
 
+Blockers:
+nothing
+________________________________________________________________________________________
 
 
 
 // 1. HOW TO CONVERT OBJECT IN ARRAYS
 // 2. MAP FILTER REDUCE 
 // 3. SPLIT SLICE DEEP CLONE
+

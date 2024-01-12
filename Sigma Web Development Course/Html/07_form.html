@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Registration form</title>
+
+</head>
+
+<body>
+    <font color="red">
+        <h1>Employee Registration Form</h1>
+    </font>
+    <form name="Form" action="" method="">
+        <table border="0">
+            <tr>
+                <td></td>
+                <td>
+                    <input type="radio" name="gender" value="Mr" id="gender" checked />
+                    <label>Mr.</label>
+
+                    <input type="radio" name="gender" value="Mrs" id="gender" />
+                    <label>Mrs.</label>
+
+                    <input type="radio" name="gender" value="Ms" id="gender" />
+                    <label>Ms.</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>First Name : </label></td>
+                <td>
+                    <input type="text" value="" id="Fname" name="Fname" placeholder="Enter your First Name" />
+                </td>
+            </tr>
+            <tr>
+                <td><label>Last Name : </label></td>
+                <td>
+                    <input type="text" value="" id="Lname" name="Lname" placeholder="Enter your Last Name" />
+                </td>
+            </tr>
+            <tr>
+                <td><label>Mail Address1 : </label></td>
+                <td><input type="email" value="" name="M1" /></td>
+            </tr>
+            <tr>
+                <td><label>Mail Address2 : </label></td>
+                <td><input type="email" value="" name="M2" /></td>
+            </tr>
+            <tr>
+                <td><label>City : </label></td>
+                <td><input type="text" value="" name="City" /></td>
+            </tr>
+            <tr>
+                <td><label>State : </label></td>
+                <td>
+                    <select id="State" name="state">
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Goa" selected>Goa</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Zip : </label></td>
+                <td><input type="text" value="" name="Zip" /></td>
+            </tr>
+            <tr>
+                <td><label>Upload Photo : </label></td>
+                <td><input type="file" value="" name="Photo" /></td>
+            </tr>
+            <tr>
+                <td><label>Email : </label></td>
+                <td><input type="email" value="" name="Email" /></td>
+            </tr>
+            <tr>
+                <td><label>Mobile : </label></td>
+                <td>
+                    <input type="tel" value="" name="Mobile" placeholder="+91" />
+                </td>
+            </tr>
+            <tr>
+                <td><label>Language Known : </label><br /></td>
+                <td>
+                    <input type="checkbox" value="Gujarati" name="Gujarati" checked />Gujarati<br />
+                    <input type="checkbox" value="Hindi" name="Hindi" /> Hindi<br />
+                    <input type="checkbox" value="English" name="English" /> English<br />
+                    <input type="checkbox" value="Marathi" name="Marathi" /> Marathi<br />
+                </td>
+            </tr>
+            <tr>
+                <td><label>Additional Information : </label></td>
+                <td><textarea cols="30" rows="5"> </textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

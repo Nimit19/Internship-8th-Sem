@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>JavaScript BUILT_IN FUNCTIONS()</h2>
+    <p id="n1">
+    </p>
+    <p id="n2"></p>
+    <p id="n3"></p>
+    <p id="n4"></p>
+    <p id="n5"></p>
+    <p id="n6"></p>
+    <p id="n7"></p>
+    <p id="n8"></p>
+    <p id="n9"></p>
+    <p id="n10"></p>
+    <p id="n11"></p>
+    <p id="n12"></p>
+    <p id="n13"></p>
+    <p id="n14"></p>
+    <p id="n15"></p>
+    <p id="n16"></p>
+    <p id="n17"></p>
+    <p id="n18"></p>
+
+    <script>
+        const d = new Date();
+        document.getElementById("n1").innerHTML = ("date :" + d);
+
+        const d1 = new Date("2015-03-25");
+        document.getElementById("n2").innerHTML = ("User Set Date :" + d1);
+
+        const n = new Array(1,2,3,4,5);
+        document.getElementById("n3").innerHTML = ("MADE NEW ARRAY: " + n);
+        n.push(6);
+        document.getElementById("n4").innerHTML = ("ADDED NEW ELEMENTS: " + n);
+
+        let text = "Nimit Patel";
+        document.getElementById("n7").innerHTML = ("MADE A NEW TEXT :" + text);
+        document.getElementById("n8").innerHTML = ("FINDING LENGTH OF TEXT : " + text.length);
+        document.getElementById("n9").innerHTML = ("SLICING A TEXT : " + text.slice(1, 9));
+        document.getElementById("n10").innerHTML = ("CONVERTING TXT TO UPPERCASE : " + text.toUpperCase());
+        
+        let text2 = "Knows javascript";
+        let text3 = text.concat("2014 ", text2);
+        document.getElementById("n11").innerHTML = ("CONCATENATED TWO TEXT : " + text3);
+
+        class person {
+            constructor(name, age) {
+                this.name = name;
+                this.age = age;
+            }
+        }
+
+        const Nimit = new person("Nimit", 95);
+        const Harsh = new person("Harsh", 19);
+
+        document.getElementById("n12").innerHTML = Nimit.name + " " + Nimit.age;
+        document.getElementById("n13").innerHTML = Harsh.name + " " + Harsh.age;
+
+        const numbers1 = [4, 9, 16, 25];
+        document.getElementById("n14").innerHTML = ("ORIGNAL ARRAY : " + numbers1);
+
+        const newArr = numbers1.map(Math.sqrt)
+        document.getElementById("n15").innerHTML = ("MAPPING FUNCTION  SQRT  : " + newArr);
+
+        const numbers = [65, 44, 12, 4];
+        const newArr1 = numbers.map(myFunction)
+
+        function myFunction(num) {
+            return num * 10;
+        }
+
+        document.getElementById("n16").innerHTML = ("MAPPING FUNCTION * 10 : " + newArr1);
+        const ages = [32, 33, 16, 40];
+
+        document.getElementById("n17").innerHTML = ("ORIGNAL ARRAY  : " + ages);
+        const result = ages.filter(checkAdult);
+
+        function checkAdult(age) {
+            return age >= 18;
+        }
+
+        document.getElementById("n18").innerHTML = ("FILTERED ARRAY  : " + result);
+
+    </script>
+
+</body>
+
+</html>

@@ -1,6 +1,7 @@
 const arr = [1,2,3,4,5,6,7,8,9];
 
 let n = 4;
+
 let arr2 = [];
 for(var i = 0; i < arr.length; i = i + n){
         let a = []
@@ -15,3 +16,4 @@ for(var i = 0; i < arr.length; i = i + n){
 }
 
 console.log(arr2);
+

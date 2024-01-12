@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+      /* body style */
+      body {
+        background-color: #333;
+      }
+
+      /* Universal Selector */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* element selector */
+      div {
+        background-color: skyblue;
+      }
+
+      /* . for classes */
+      .primary-heading {
+        color: blue;
+      }
+
+      /* # for Ids */
+      #welcome {
+        color: red;
+      }
+
+      /* multiple Selector */
+      #welcome,
+      #about {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      /* Nested Selector or descendant selector */
+      #welcome p {
+        font-size: 20px;
+      }
+
+     /* Child Selectors  */
+      #about > p{
+            background-color: #fff;
+      }
+
+      /* it's not work because it not have any direct child */
+      #about  p{
+            background-color: #fff;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div id="welcome">
+      <h1 class="primary-heading">Welcome</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi odit
+        magnam dolorum dolores recusandae tempora atque nihil at, nesciunt
+        reprehenderit a nemo saepe doloribus tenetur, velit necessitatibus
+        animi, dignissimos magni officiis! Dolorem molestiae fugiat fugit natus
+        illo magni maxime nam eum molestias saepe obcaecati vitae labore quas
+        mollitia, non ullam! Similique praesentium ab debitis sapiente sed
+        maxime veritatis magnam unde quisquam, iste incidunt expedita nulla
+        molestias quaerat corrupti quidem, odio repudiandae id iusto officiis
+        mollitia eos! Voluptatum odio quod assumenda!
+      </p>
+     
+    </div>
+
+    <div id="about">
+      <h1>About</h1>
+      
+        <span>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores est iste, nihil, deserunt at, culpa eaque alias exercitationem voluptatibus veniam quod labore. Perferendis id atque delectus fugit labore et, at voluptas sit quas cum quod ab aliquam dolores, reiciendis est!
+            </p>
+        </span>
+      
+    </div>
+  </body>
+</html>
