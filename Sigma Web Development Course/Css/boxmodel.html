@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .box{
+            background-color: aqua;
+        }
+
+        .box-1{
+            color: green;
+            height: 150px;
+            border: 2px red solid;
+            /* padding: 10px; */
+
+            /* top right bottom left */
+            padding: 10px 20px 30px 40px;
+            margin:20px;
+
+            /* without using  box-sizing: border-box; height only give to the content */
+            /* if we use that then height inlcude content, padding and border */
+            box-sizing: border-box;
+        }
+
+        .box-2{
+            color: red;
+            border: 2px green solid;
+            margin:20px;
+            
+            /* top & bottom    left & right */
+            padding: 10px 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box box-1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae laudantium, mollitia atque blanditiis provident praesentium voluptas tenetur non et, soluta dolor sed voluptates officia quas veritatis. Itaque enim sed amet, in tenetur modi fugiat cupiditate sint, quisquam voluptates assumenda? Nisi non fuga sapiente molestias dicta ipsum voluptates cupiditate consectetur laborum.</p>
+    </div>
+    <div class ="box box-2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis eos, esse iste in necessitatibus fuga amet optio ipsum est soluta explicabo deleniti ex libero vel fugiat saepe voluptatibus veritatis facilis molestias? Commodi quisquam unde, itaque deleniti facere, doloremque qui iusto odit est similique quis eius vitae. Temporibus veritatis possimus suscipit.</p>
+    </div>
+</body>
+</html>

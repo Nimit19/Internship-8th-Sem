@@ -141,7 +141,13 @@ Date: 12/01/2024
 Time spent: 8 Hours
 
 Today's task:  
-
+1. Fonts in Css
+2. Colors type in Css
+3. Backgrounds and borders
+4. Box models, margin and padding
+5. float and alignments
+6. Link state and button styling
+7. Navigation menu styling
 
 Blockers:
 nothing

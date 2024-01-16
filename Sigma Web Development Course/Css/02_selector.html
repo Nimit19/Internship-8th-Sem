@@ -41,20 +41,37 @@
       }
 
       /* Nested Selector or descendant selector */
-      #welcome p {
+      #about p {
+        background-color: #fff;
+      }
+
+      /* Child Selectors  */
+      #welcome > p {
         font-size: 20px;
       }
 
-     /* Child Selectors  */
-      #about > p{
-            background-color: #fff;
+      /* it's not work because it not have any direct child p */
+      #about > p {
+        color: green;
       }
 
-      /* it's not work because it not have any direct child */
-      #about  p{
-            background-color: #fff;
+  
+      /* Pseudo Selector  */
+      a:visited {
+        color: yellow;
       }
 
+      a:link {
+        color: blue;
+      }
+
+      a:active {
+        background-color: red;
+      }
+
+      a:hover {
+        background-color: green;
+      }
 
     </style>
   </head>
@@ -72,18 +89,27 @@
         molestias quaerat corrupti quidem, odio repudiandae id iusto officiis
         mollitia eos! Voluptatum odio quod assumenda!
       </p>
-     
     </div>
 
     <div id="about">
       <h1>About</h1>
-      
-        <span>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores est iste, nihil, deserunt at, culpa eaque alias exercitationem voluptatibus veniam quod labore. Perferendis id atque delectus fugit labore et, at voluptas sit quas cum quod ab aliquam dolores, reiciendis est!
-            </p>
-        </span>
-      
+
+      <span>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores est
+          iste, nihil, deserunt at, culpa eaque alias exercitationem
+          voluptatibus veniam quod labore. Perferendis id atque delectus fugit
+          labore et, at voluptas sit quas cum quod ab aliquam dolores,
+          reiciendis est!
+        </p>
+      </span>
+    </div>
+
+    <div>
+      <ul>
+        <li><a href="https://www.google.com/" target="_blank">Click for Google</a></li>
+        <li><a href="https://www.facebook.com/" target="_blank">Click for Facebook</a></li>
+      </ul>
     </div>
   </body>
 </html>

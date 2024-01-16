@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float & Alignment</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.4rem;
+        }
+
+        .container{
+            max-width: 960px;
+            margin: auto;
+        }
+
+
+        .box{
+            background-color:#f4f4f4;
+            border: 1px solid #333;
+            padding: 20px;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .clr{
+            clear: both;
+        }
+        
+        #box2{
+             float: left;
+             width: 68%;
+        }
+
+        #box3{
+             float: right;
+             width: 30%;
+        }
+
+
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div id="box1" class="box">
+        <h1>heading 1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In odit praesentium culpa architecto dolore, cumque tenetur ullam. Iure, modi maxime!
+
+        </p>
+    </div>
+    <div id="box2" class="box">
+        <h1>heading 2</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In odit praesentium culpa architecto dolore, cumque tenetur ullam. Iure, modi maxime!
+
+        </p>
+    </div>
+
+    <div id="box3" class="box">
+        <h1>heading 3</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In odit praesentium culpa architecto dolore, cumque tenetur ullam. Iure, modi maxime!
+
+        </p>
+    </div>
+
+    <div class="clr"></div>
+
+    <div id="box4" class="box">
+        <h1>heading 4</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In odit praesentium culpa architecto dolore, cumque tenetur ullam. Iure, modi maxime!
+
+        </p>
+    </div>
+  </div>
+</body>
+</html>
