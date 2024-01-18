@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Box Shadow
+    </title>
+    <style>
+        .flex-container{
+            display: flex;;
+        }
+
+        .box{
+            background-color: orange;
+            margin: 15px;
+            padding: 10px;
+            height: 320px;
+            border-radius: 10px;
+
+            box-shadow: 5px 5px 10px  teal;
+
+            /* box-shadow: -5px -5px 10px teal; */
+
+            /* box-shadow: 5px 5px 10px teal, -5px -5px 10px teal; */
+
+            /* box-shadow: inset 5px 5px 10px teal; */
+
+            /* box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.3); */
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="box">
+            <h1>Welcome</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, voluptatum repellat? Nam et repudiandae ut.</p>
+        </div>  
+        <div class="box">
+            <h1>Welcome</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, voluptatum repellat? Nam et repudiandae ut.</p>
+        </div>
+        <div class="box">
+            <h1>Welcome</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, voluptatum repellat? Nam et repudiandae ut.</p>
+        </div>
+
+    </div>
+</body>
+</html>

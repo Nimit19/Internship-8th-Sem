@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Direction</title>
+    <style>
+
+      .flex-container {
+        background-color: DodgerBlue;
+        width: 80vw;
+        height: 80vh;
+        
+        /* Flex Direction */
+        display: flex;
+
+        /* Flex direction column */
+        /* flex-direction: column; */
+
+        /* Flex direction column and reverse */
+        /* flex-direction: column-reverse; */
+
+        /* Flex direction row */
+        flex-direction: row;
+
+        /* Flex direction row and reverse */
+        /* flex-direction: row-reverse; */
+
+      }
+
+      div {
+        background-color: #f1f1f1;
+        margin: 10px;
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        text-align: center;     
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>
+    </div>
+  </body>
+</html>

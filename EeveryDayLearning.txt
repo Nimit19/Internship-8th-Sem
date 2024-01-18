@@ -153,6 +153,64 @@ Blockers:
 nothing
 ________________________________________________________________________________________
 
+Name: Nimit Patel
+Date: 16/01/2024
+Time spent: 8 Hours
+
+Today's task:  
+1. Inline, block & Inline-block Display
+2. Positioning           
+3. Form styling
+4. Visibility
+5. Order & Negative Margin
+6. Intro to Responsive
+7. Media Queries
+8. em & rem units
+9. vh & vw units
+10. Intro to FlexBox
+11. FlexBox basics
+12. Flex Properties
+13. Flex Alignment
+
+Blockers:
+nothing
+________________________________________________________________________________________
+
+Name: Nimit Patel
+Date: 17/01/2024
+Time spent: 8 Hours
+
+Today's task:  
+1. Targeted Selectors
+2. nth-child Pseudo-selectors
+3. before/after Pseudo-selectors
+4. Box Shadows
+5. Text Shadows
+6. CSS Variables
+7. Keyframe Animation
+8. CSS Transitions
+9. Transform Property
+10. Grid Row and Column
+
+Blockers:
+nothing
+________________________________________________________________________________________
+
+Name: Nimit Patel
+Date: 18/01/2024
+Time spent: 8 Hours 
+
+Today's task:  
+1. Grid Spanning Columns and Rows
+2. Grid Autofit and Minmax
+3. Grid Template Area
+4. Grid Media Queries
+5. 
+
+Blockers:
+nothing
+________________________________________________________________________________________
+
 
 
 // 1. HOW TO CONVERT OBJECT IN ARRAYS

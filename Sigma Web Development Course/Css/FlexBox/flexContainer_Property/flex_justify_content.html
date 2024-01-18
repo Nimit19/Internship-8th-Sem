@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Justify-Content</title>
+    <style>
+      .flex-container {
+        background-color: DodgerBlue;
+        width: 80vw;
+        height: 50vh;
+        
+        /* For Main Axis */
+        /* Justify Content */
+        display: flex;
+
+        /* Center */
+        justify-content: center;
+
+        /* start */
+        /* justify-content: flex-start; */
+
+        /* end */
+        /* justify-content: flex-end; */
+
+        /* justify-content: space-between; */
+
+        /* justify-content: space-around; */
+      }
+
+      div {
+        background-color: #f1f1f1;
+        margin: 10px;
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation</title>
+    <style>
+      body {
+        background-color: aqua;
+      }
+
+      .box {
+        background-color: red;
+        position: relative;
+        top:0;
+        left:0;
+        width: 200px;
+        height: 200px;
+
+        animation: animate1 10s forwards ease-in-out ;
+
+      }
+
+      @keyframes animate1 {
+        25%{
+            top:0;
+            left:300px;
+            background-color: yellow;
+            border-radius: 50px;
+        }
+        50%{
+            top:300px;
+            left:300px;
+            background-color: green;
+            border-radius: 100px;
+
+        }
+        75%{
+            top:300px;
+            left:0px;
+            background-color: blue;
+            border-radius: 50px;
+
+        }
+        100%{
+            top:0;
+            left:0px;
+            background-color: red;
+
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>

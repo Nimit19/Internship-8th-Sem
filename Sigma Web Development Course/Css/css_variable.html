@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Variable</title>
+  </head>
+  <style>
+    :root{
+        --primary-color: steelblue;
+        --secondary-color: skyblue;
+        --text-color:aliceblue;
+    }
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    h1{
+        background-color: var(--primary-color);
+        border-bottom: 5px var(--secondary-color) solid;
+        color: var(--text-color);
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .item{
+        background-color: var(--primary-color);
+        border-bottom: 5px var(--secondary-color) solid;
+        color: var(--text-color);
+
+        margin: 10px;
+        padding: 10px;
+        width: 100px;
+        height: 50px;
+        
+    }
+
+
+  </style>
+  <body>
+    <h1 class="welcome">Welcome</h1>
+    <div class="container">
+      <div class="item">
+        <h3>Nimit Patel</h3>
+      </div>
+      <div class="item">
+        <h3>Nimit Patel</h3>
+      </div>
+    </div>
+  </body>
+</html>

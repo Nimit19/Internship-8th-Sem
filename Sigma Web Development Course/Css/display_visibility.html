@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline-Block Display</title>
+    <style>
+        li{
+            display: inline;
+        }
+
+        li a{
+            padding: 15px;;
+        }
+
+        img{
+            width: 300px;
+
+            /* margin: auto not work without having display: block */
+            margin: auto;
+
+            display: block;
+
+        }
+
+
+        .box{
+            background-color: #f4f4f4;
+            width: 33%;
+
+            /* width not work on display:inline ;*/
+            /* display: inline; */
+
+            display: inline-block;
+            padding:10px;
+            margin: 10px 0px;
+            box-sizing: border-box;
+        }
+
+        .image-2{
+            /* display: none; */
+            visibility: hidden;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Nimit Patel</a></li>
+        <li><a href="#">Vaibhav Master</a></li>
+        <li><a href="#">Ruchir Parekh</a></li>
+    </ul>
+
+    <img src="images/Profile.jpg" alt="Profile Image">
+    <img class="image-2" src="images/Profile.jpg" alt="Profile Image">
+
+    <div class="box">
+        <h1>heading 1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, voluptatem dolor. Ad aspernatur odio reprehenderit, sit minima dolore nihil rerum voluptas ex tempora! Ipsum, maiores beatae porro consequuntur atque fugit laboriosam officia corporis, odit veniam enim eius amet, distinctio aspernatur?</p>
+
+    </div>
+    <div class="box">
+        <h1>heading 1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, voluptatem dolor. Ad aspernatur odio reprehenderit, sit minima dolore nihil rerum voluptas ex tempora! Ipsum, maiores beatae porro consequuntur atque fugit laboriosam officia corporis, odit veniam enim eius amet, distinctio aspernatur?</p>
+
+    </div>
+    <div class="box">
+        <h1>heading 1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, voluptatem dolor. Ad aspernatur odio reprehenderit, sit minima dolore nihil rerum voluptas ex tempora! Ipsum, maiores beatae porro consequuntur atque fugit laboriosam officia corporis, odit veniam enim eius amet, distinctio aspernatur?</p>
+    </div>
+
+
+
+</body>
+</html>

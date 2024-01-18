@@ -43,4 +43,6 @@ function getMax(a){
 console.log(getMax(arr));
 
 
+console.log(arr.flat(Infinity));
+
 
