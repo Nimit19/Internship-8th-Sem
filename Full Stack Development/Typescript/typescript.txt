@@ -1,0 +1,39 @@
+1. What is TypeScript?
+-> TypeScript is a syntactic superset of JavaScript which adds static typing.
+-> This basically means that TypeScript adds syntax on top of JavaScript, allowing developers to add types.
+
+2. Why should I use TypeScript?
+-> JavaScript is a loosely typed language. It can be difficult to understand what types of data are being passed around in JavaScript.
+-> In JavaScript, function parameters and variables don't have any information! So developers need to look at documentation, or guess based on the implementation.
+-> TypeScript allows specifying the types of data being passed around within the code, and has the ability to report errors when the types don't match.
+-> For example, TypeScript will report an error when passing a string into a function that expects a number. JavaScript will not.
+
+
+3. Type Assignment
+-> When creating a variable, there are two main ways TypeScript assigns a type:
+   1. Explicit
+   2. Implicit
+
+-> Explicit Type
+Example:
+let firstName: string = "Nimit";
+
+-> Implicit Type: TypeScript will "guess" the type, based on the assigned value:
+Example:
+let firstName = "Nimit";
+
+4. Built-In Types:
+-> JavaScript
+   1. number
+   2. string
+   3. boolean
+   4. null
+   5. undefined
+   6. object
+
+-> TypeScript
+   1. any
+   2. unknown
+   3. never
+   4. enum
+   5. tuple

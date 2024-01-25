@@ -108,6 +108,11 @@ Today's task:
 
 Blockers:
 nothing
+
+Note:
+// 1. HOW TO CONVERT OBJECT IN ARRAYS
+// 2. MAP FILTER REDUCE 
+// 3. SPLIT SLICE DEEP CLONE
 ________________________________________________________________________________________
 
 Name: Nimit Patel
@@ -210,10 +215,97 @@ Today's task:
 Blockers:
 nothing
 ________________________________________________________________________________________
+Name: Nimit Patel
+Date: 22/01/2024
+Time spent: 8 Hours 
+
+Today's task:  
+1. TypeScript
+
+Blockers:
+nothing
+
+________________________________________________________________________________________
+
+Name: Nimit Patel
+Date: 23/01/2024
+Time spent: 8 Hours 
+
+Today's task:  
+1. What is React Js
+2. ReactJS vs Vanilla JavaScript
+3. Editing First React App 
+4. JavaScript Refresher
+   - import & export
+   - Variable & Values
+   - Functions
+   - Object and Classes
+   - Arrays, Object & Destructuring
+   - Functions as Value
+   - Reference Vs Primitive Values
+5. What Are Components
+6. Create a New React Project
+7. Analyzing a Standard Project
+8. Introducing JSX
+9. How React works
+10. Building First Custom Component
+11. Adding Basic CSS Styling
+12. Outputting Dynamic Data
+13. Passing Data via props 
+14. Splitting Components into Multiple Components
+15. The Concept of Composition
+16. A Closer Look At Jsx
+
+Blockers:
+nothing
+________________________________________________________________________________________
+
+Name: Nimit Patel
+Date: 24/01/2024
+Time spent: 8 Hours 
+
+Today's task:  
+1. Practice task
+    - Outputting Key Concepts Data
+    - Identifying Possible Components
+    - Creating and Using Custom Components
+    - Outsourcing Concepts Items into a reusable component
+2. Listening to Events & Working with Event Handlers
+3. How Component Functions Are Executed
+4. Working With State 
+5. A Closer Look At the useState Hook
+6. Add Forms & Listening to User Input
+7. Working With Multiple State
+8. Updating state that depends on the previous state
+9. Handling Form Submission
+10. Adding Two-Way Binding
+11. Child to parent component Communication
+12. Lifting The State Up
+13. Derived Computed State
+14. Controlled Vs Uncontrolled
+15. Stateless Vs Stateful
+16. Rendering Lists Of Data Dynamically
+17. Understanding Keys
+18. Outputting Conditional Content
+19. Adding Conditional Return Statements
+
+
+Blockers:
+nothing
+________________________________________________________________________________________
+
+Name: Nimit Patel
+Date: 25/01/2024
+Time spent: 8 Hours 
+
+Today's task:  
+1.
+
+
+Blockers:
+nothing
+________________________________________________________________________________________
 
 
 
-// 1. HOW TO CONVERT OBJECT IN ARRAYS
-// 2. MAP FILTER REDUCE 
-// 3. SPLIT SLICE DEEP CLONE
 
