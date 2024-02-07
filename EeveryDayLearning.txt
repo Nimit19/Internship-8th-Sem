@@ -299,13 +299,149 @@ Date: 25/01/2024
 Time spent: 8 Hours 
 
 Today's task:  
-1.
+1. Adding Dynamic Styles
+2  Setting Dynamic Inline Styles
+3. Setting Css Classes Dynamically
+4. Styled Components
+5. Styled Components & Dynamic props
+6. Styled Components & Media Queries
+7. Dynamic Styles with CSS Modules
+
 
 
 Blockers:
 nothing
 ________________________________________________________________________________________
 
+Name: Nimit Patel
+Date: 29/01/2024
+Time spent: 8 Hours 
+
+Today's task:  
+- Html Css Project
+
+Blockers:
+nothing
+________________________________________________________________________________________
+
+Name: Nimit Patel
+Date: 30/01/2024
+Time spent: 8 Hours 
+
+Today's task: 
+- make the Project responsive 
+
+Blockers:
+nothing
+________________________________________________________________________________________
+
+Name: Nimit Patel
+Date: 31/01/2024
+Time spent: 8 Hours 
+
+Today's task:  
+1. Completed the task
+2. Debugging React Apps
+3. Understanding React Error Messages
+4. Analyzing Code Flow & Warning
+5. Working with break points
+6. React Devtools
+7. Practice Task 1
+   - Splitting The App into Components
+   - Handling Events
+   - Managing State
+   - Lifting Tht State Up
+   - Outputting Results Conditionally
+   - Adding CSS Module
+
+Blockers:
+nothing
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 1/02/2024
+Time spent: 8 Hours 
+
+Today's task:  
+1. Practice Task 2
+   - Adding a Reusable Components
+   - Adding Validation and Resetting Logic
+   - Make a Reusable Error Modal Component
+   - Managing the Error state With Error Modal component
+2. JSX Limitations & Workarounds
+3. Creating a Wrapper Components
+4. React Fragments
+5. Introducing React Portals
+6. Working With Portals
+7. Working With Refs 
+8. Introducing useEffect 
+
+Blockers:
+nothing
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 2/02/2024
+Time spent: 8 Hours 
+
+Today's task:
+1. The useEffect() Hook
+2. useEffect & Dependencies
+3. useEffect Cleanup Function
+4. Introducing useReducer
+5. useReducer() Hook
+6. useReducer & useEffect
+7. useReducer vs useState
+8. Introducing React Context
+9. The React Context API
+10. useContext Hook
+11. Making Context Dynamic
+12. Building & using a Custom Context Provider Component
+13. React Context Limitations
+
+Blockers:
+nothing
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 5/02/2024
+Time spent: 8 Hours 
+
+Today's task:
+1. Learnings the Rules of  Hooks
+2. Refactoring an input Component
+3. Diving into forward Refs
+4. Food Order App
+
+Blockers:
+nothing
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 6/02/2024
+Time spent: 8 Hours 
+
+Today's task:
+1. Completed Food Order App
+2. How React Really works
+3. A Closer Look At Child Component Re-Evaluation
+4. Preventing Unnecessary Re-Evaluation With React memo()
+5. Preventing Function Re-Creation With useCallback()
+6. useCallback() and its Dependencies
+7. A Closer Look At State & Components
+8. Understanding State Scheduling & Batching
+9. Optimizing with useMemo()
+
+Blockers:
+nothing
+________________________________________________________________________________________
+2 Remaining 
+section 11: 20 21
+
+Ragx
+Public Route
+Private Route
+Higher Order Components
+covert number - 3
+Form using map only one input filled
+uses of Portals
+_______
 
 
-
+___________
