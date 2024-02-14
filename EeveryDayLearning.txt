@@ -307,8 +307,6 @@ Today's task:
 6. Styled Components & Media Queries
 7. Dynamic Styles with CSS Modules
 
-
-
 Blockers:
 nothing
 ________________________________________________________________________________________
@@ -431,17 +429,176 @@ Today's task:
 Blockers:
 nothing
 ________________________________________________________________________________________
+
+Name: Nimit Patel
+Date: 7/02/2024
+Time spent: 8 Hours 
+
+Today's task:
+1. Class Components
+2. Working With state and events
+3. Class Based Components Lifecycle
+4. Lifecycle Methods
+5. Class Based Components & Context
+6. Class-based vs Functional Components 
+7. Error Boundaries
+8. How to connect to a Database
+9. Sending a get request
+10. using async await 
+11. Handling Loading & Data States 
+12. Handling Http Errors
+13. Using useEffect() for request
+14. Configuring Firebase for rest api requests
+15. sending a POST request
+
+Blockers:
+nothing
+________________________________________________________________________________________
+
+Name: Nimit Patel
+Date: 8/02/2024
+Time spent: 8 Hours 
+
+Today's task:
+1. Introducing the Custom Hooks
+2. Creating Custom react Hook Function
+3. Configuring Custom Hooks
+4. Building a custom Http Hook
+5. Working With Forms and User Input
+
+Blockers:
+nothing
+________________________________________________________________________________________
+
+Name: Nimit Patel
+Date: 9/02/2024
+Time spent: 8 Hours 
+
+Today's task:
+1. What's Complex about Form
+2. Dealing with Form submission & getting user input Values
+3. Adding Basic Validation
+4. Providing Validation Feedback
+5. Handling the touched state
+6. React to lost focus
+7. Managing The Overall Form Validity
+8. Adding A Custom Input Hook
+9. Re-using The  Custom Hook
+10. Add useReducer() to Custom Hook
+11. Use Firebase for backend in Food Order App
+12. Moving Meals Data To The backend
+13. Fetching Meals Via Http
+14. Handling Loading State
+15. Handling Error
+
+Blockers:
+nothing
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 12/02/2024
+Time spent: 8 Hours 
+
+Today's task:
+1. What & Why TypeScript
+2. Exploring the Base Types
+3. Working With Arrays & Object Types
+4. Understanding Type Inference
+5. Using Union Types
+6. Understanding Type Aliases
+7. Function & Functions Type
+8. Diving into Generics 
+9. Creating a React + Typescript Project
+10. Working with components & Typescript
+11. Working with props & Typescript
+12. Form Submission in TypeScript
+13. Working with refs & useRef
+14. Working with function props
+15. managing state & TypeScript
+16. The Context API & TypeScript
+
+Blockers:
+nothing
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 13/02/2024
+Time spent: 8 Hours 
+
+Today's task:
+1. What is Redux?
+2. Redux vs React Context
+3. How redux works?
+4. Exploring the core Redux Concepts
+5. Creating a Redux Store
+6. Providing the store
+7. Use Redux Data in react Components
+8. Dispatching Actions From inside Components
+9. Redux with class based Components
+10. Attaching Payloads to Actions
+11. Working with multiple state Properties
+12. How to work with Redux State Correctly?
+13. What is Redux Toolkit?
+14. Adding State Slice 
+15. Connecting Redux Toolkit State
+16. Working with multiple slices
+
+Blockers:
+nothing
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 14/02/2024
+Time spent: 8 Hours 
+
+Today's task:
+
+
+Blockers:
+nothing
+________________________________________________________________________________________
+
 2 Remaining 
 section 11: 20 21
 
-Ragx
-Public Route
-Private Route
-Higher Order Components
-covert number - 3
-Form using map only one input filled
-uses of Portals
-_______
+Note: 
+- Ragx
+- Public Route
+- Private Route
+- Higher Order Components
+- covert number - 3
+- Form using map only one input filled
+- uses of Portals
+- Text Ellipsis css
+- Gradient color to text
+- useState vs useReducer
+- useMemo vs useCallback: difference, return 
+- try and catch alternative
+- then catch
+- debounce
+- redux chunks
+- redux persistive
 
 
-___________
+
+-- Complete Remaining Course
+-- Theoretical Knowledge
+-- useMemo vs useCallback
+-- Project Html and CSS
+
+
+_________
+
+
+Er Diagram
+user rolemanagment 
+which 
+admin and user
+user roles interface dasboard
+
+- web system 
+- compnay admin & emplyee
+- task entry to whom
+- 
+
+questions & what and how
+UI & UX
+
+

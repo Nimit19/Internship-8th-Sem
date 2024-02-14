@@ -4,7 +4,7 @@ let p1 = new Promise((resolve, reject) => {
   console.log("Promise1 Pending");
 
   setTimeout(() => {
-    console.log("I am Promise1 and i am fullfilled ");
+    console.log("I am Promise1 and i am fulfilled ");
     resolve(19);
   }, 3000);
 });
