@@ -1,4 +1,32 @@
 Name: Nimit Patel
+Date: 01/01/2024
+Time spent: 8Hours
+
+Today's task:
+- Company Introduction
+- Policies 
+- Benefits
+- Work culture
+
+Blockers:
+Nothing
+________________________________________________________________________________________
+
+Name: Nimit Patel
+Date: 02/01/2024
+Time spent: 8Hours
+
+Today's task:
+- Our Introduction 
+- Employee Introduction
+- Learning Outlines
+
+
+Blockers:
+Nothing
+________________________________________________________________________________________
+
+Name: Nimit Patel
 Date: 03/01/2024
 Time spent: 8Hours
 
@@ -549,11 +577,237 @@ Date: 14/02/2024
 Time spent: 8 Hours 
 
 Today's task:
+1. Redux Practice Task 
+2. Redux & Side Effects
+3. Redux and async Code
+4. useEffect with Redux
+
+Blockers:
+nothing
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 15/02/2024
+Time spent: 8 Hours 
+
+Today's task:
+1. Handling Http states & Feedback with redux
+2. Use an Action Creator Thunk
+3. Exploring the Redux Devtools
+4. what is Routing?
+5. Defining Routes
+6. Adding Multiple Routes
+7. Exploring an alternative way of defining routes
+8. Navigating between pages with links
+9. layout & Nested Routes
+10. Showing Error Pages with errorElement
+11. Working with navigation Navlink
+12. Navigation Programmatically 
+13. Defining and using dynamic Routes
+14. Adding Links For dynamic Routes
+
+Blockers:
+nothing
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 16/02/2024
+Time spent: 8 Hours 
+
+Today's task:
+1. 
+
+Blockers:
+nothing
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 19/02/2024
+Time spent: 8 Hours 
+
+Today's task:
+1. 
+
+Blockers:
+nothing
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 20/02/2024
+Time spent: 8 Hours 
+
+Today's task:
+1. 
+
+Blockers:
+nothing
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 21/02/2024
+Time spent: 8 Hours 
+
+Today's task:
+Data Fetching with a Loader()
+Use data from a loader in the route Components
+More loader data use
+when are loader() functions Executed
+Reflecting the current navigation state in the UI
+Returning Responses in loader()
+Which kind of code goes into loader()
+Error handling with custom Errors
+the json utility function
+dynamic routes
+useRouteLoaderData() Hook
+Working with action() function
+
+Blockers:
+nothing
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 22/02/2024
+Time spent: 8 Hours 
+
+Today's task:
+Validating user input & Outputting Validation Errors
+Reusing Actions Via request Methods
+useFetcher() 
+Deferring Data Fetching With defer()
+Controlling Witch Data Should Be Deferred
+Make Cart Page Responsive
+
+Blockers:
+nothing
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 23/02/2024
+Time Spent: 8 Hours 
+
+Today's task:
+Created Order Page 
+Created FoodDetails Page
+Make FoodShop Page Responsive
+Refreshing the concept of portals
+Make Home Page Responsive
+
+Blockers:
+nothing
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 26/02/2024
+Time Spent: 8 Hours 
+
+Today's task:
+Refreshing the concept of redux
+Add redux to the food Website
+
+Blockers:
+nothing
+________________________________________________________________________________________
+
+absent
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 28/02/2024
+Time Spent: 8 Hours 
+
+Today's task:
+- OrderSummary Page
+- Confirm Order Page
+- Add UISlice to store
+- Add CartSlice to store
 
 
 Blockers:
 nothing
 ________________________________________________________________________________________
+Name: Nimit Patel
+Date: 29/02/2024
+Time Spent: 8 Hours 
+
+Today's task:
+Add Authentication 
+Private Routes
+Search Logic 
+
+Blockers:
+nothing
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 1/03/2024
+Time Spent: 8 Hours 
+
+Today's task:
+adding Dynamic Routing
+made re-useable components
+Make Homepage Responsive
+Make ShopDetails Page Responsive
+
+Blockers:
+nothing
+___________________________________________________________________________
+
+Name: Nimit Patel
+Date: 4/03/2024
+Time Spent: 8 Hours 
+
+Today's task:
+- Add Profile Page
+- Add Form Validation
+- Add Clickable image that redirect the FoodShop
+- Make Auth page Responsive
+- Add Animation 
+
+Blockers:
+nothing
+________________________________________________________________________________________
+
+Node JS
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 5/03/2024
+Time Spent: 8 Hours 
+
+Today's task:
+1. What is NodeJs?
+2. What is V8 Engine?
+3. NodeJs Architecture
+4. Blocking/ Non-Blocking Operation
+5. Node Package Manager
+6. Package.json
+7. Modules in NodeJs
+8. fs Module
+9. HTTP Module
+10. Handling request & response
+11. HTTP Methods
+
+Blockers:
+nothing
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 6/03/2024
+Time Spent: 8 Hours 
+
+Today's task:
+1. Intro to Express 
+2. Versoning in NodeJs
+3. REST API
+4. Express Middleware 
+5. HTTP Headers
+6. HTTP Status Code
+
+Blockers:
+nothing
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 7/03/2024
+Time Spent: 8 Hours 
+
+Today's task:
+1. Error Handling
+2. User Managment Project
+3. Server Side Rendering EJS
+4. Authentication 
+
+Blockers:
+nothing
+________________________________________________________________________________________
+
 
 2 Remaining 
 section 11: 20 21
@@ -575,10 +829,7 @@ Note:
 - debounce
 - redux chunks
 - redux persistive
-
-
-
--- Complete Remaining Course
+- Complete Remaining Course
 -- Theoretical Knowledge
 -- useMemo vs useCallback
 -- Project Html and CSS
