@@ -805,13 +805,108 @@ Today's task:
 4. Authentication 
 
 Blockers:
-nothing
+none
 ________________________________________________________________________________________
+Name: Nimit Patel
+Date: 8/03/2024
+Time Spent: 8 Hours 
+
+Today's task:
+1. Unit tests For NodeJs code using frameworks jest or mocha
+2. Express + TypeScript
+3. Configuring Typescript For ExpressJS
+4. Creating routes for different functionalities
+5. Implementing controller logic to handle requests
+6. Abstracting business logic into service Folder 
+
+
+Blockers:
+none
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 11/03/2024
+Time Spent: 8 Hours 
+
+Today's task:
+1. Authentication
+2. JWT Token
+3. Cookies
+
+Blockers:
+none
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 12/03/2024
+Time Spent: 8 Hours 
+
+Today's task:
+1. Validation and Sanitization 
+2. Using CORS in Express
+3. Authentication vs Authorazation
+4. bcrypt
+
+Blockers:
+none
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 13/03/2024
+Time Spent: 8 Hours 
+
+Today's task:
+What is PostgreSQL?
+What is typeORM?
+Need Of typeORM
+Setting up a PostgreSQL database server.
+Configuring TypeORM to connect to PostgreSQL.
+Entity Creation
+
+Blockers:
+none
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 14/03/2024
+Time Spent: 8 Hours 
+
+Today's task:
+Creating a typeORM entity
+What are realtions
+One to One
+One to Many
+Eager & lazy Operation
+Casecade Options
+
+
+Blockers:
+none
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 15/03/2024
+Time Spent: 8 Hours 
+
+Today's task:
+
+
+Blockers:
+none
+________________________________________________________________________________________
+
+TODO: connect to Postgres -> Done
+TODO: One to Many -> Done
+TODO: Authentication  -> Done
+TODO: Authorazation -> Done
+TODO: Passport JS 
+TODO: JoI Validation -> Done
+TODO: Migration -> Done
+TODO: caching 
+TODO: Photo Upload
+
 
 
 2 Remaining 
 section 11: 20 21
-
+   "typeorm": "typeorm",
+    "migration:run": "npx typeorm-ts-node-commonjs migration:run --dataSource ./src/data-source.ts",
+    "migration:revert": "npx typeorm-ts-node-commonjs migration:revert --dataSource ./src/data-source.ts"
 Note: 
 - Ragx
 - Public Route

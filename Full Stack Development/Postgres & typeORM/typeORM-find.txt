@@ -1,0 +1,38 @@
+// Find method on the userRepository to retrieve data.
+userRepository.find({
+    // Specify the fields to select from the user entity.
+    select: {
+        firstName: true,
+        lastName: true,
+    },
+    // Specify relations to be included in the query.
+    relations: {
+        profile: true,
+        photos: true,
+        videos: true,
+    },
+    // Specify conditions for filtering results.
+    where: {
+        // Filter by first name "Timber".
+        firstName: "Timber",
+        // Filter by last name "Saw".
+        lastName: "Saw",
+        // Filter by profile with userName "tshaw".
+        profile: {
+            userName: "tshaw",
+        },
+    },
+    // Specify the order in which results should be sorted.
+    order: {
+        // Sort by name in ascending order.
+        name: "ASC",
+        // Sort by id in descending order.
+        id: "DESC",
+    },
+    // Specify the number of records to skip.
+    skip: 5,
+    // Specify the maximum number of records to return.
+    take: 10,
+    // Enable caching for the query.
+    cache: true,
+})

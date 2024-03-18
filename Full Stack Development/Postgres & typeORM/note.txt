@@ -1,0 +1,19 @@
+1. Install the npm package: npm install typeorm --save
+2. You need to install reflect-metadata shim: npm install reflect-metadata --save
+3. import it somewhere in the global place of your app (for example in app.ts): import "reflect-metadata"
+4. Install a database driver(for PostgreSQL or CockroachDB): npm install pg --save 
+5. TypeScript configuration: 
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+6. typeORM File Structure
+MyProject
+├── src                   // place of your TypeScript code
+│   ├── entities            // place where your entities (database models) are stored
+│   │   └── User.ts       // sample entity
+│   ├── migration         // place where your migrations are stored
+│   ├── data-source.ts    // data source and all connection configuration
+│   └── index.ts          // start point of your application
+├── .gitignore            // standard gitignore file
+├── package.json          // node module dependencies
+├── README.md             // simple readme file
+└── tsconfig.json         // TypeScript compiler options

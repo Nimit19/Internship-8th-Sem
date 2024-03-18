@@ -1,9 +1,0 @@
-1. HTTP Methdos
-  - POST
-  - GET
-  - PATCH
-  - DELETE
-2. Heandling Request/ Response
-3. Handling Errors
-4. Express
-5. 

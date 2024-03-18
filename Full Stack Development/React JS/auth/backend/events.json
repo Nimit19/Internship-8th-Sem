@@ -1,1 +1,38 @@
-{"events":[{"title":"A new event","image":"https://cdn.muenchen-p.de/fl_progressive,q_65/.imaging/stk/responsive/teaser300/dms/va-2016/muenchner-christkindlmarkt/christkindlmarkt-marienplat-logo-hp/document/christkindlmarkt-marienplat-logo-hp.jpg","date":"2022-10-01","description":"Some awesome event!","id":"2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"}],"users":[{"email":"nik@gmail","password":"$2a$12$4sk0XLWS/Q8.bc/M4vqKFOVn/VVXsRSQ5t5BUWko7Xkby33BD.xnO","id":"94dfd28a-224c-4a83-ba67-cfbdce06dff1"},{"email":"nik@gmail.com","password":"$2a$12$mPIiwOBlAqQIhsNHHiJSn.VWgQvFW1CnNRlaGpVHC5kevifsFXhVO","id":"7c09ecb3-72cf-48fc-a99f-8498fa67c728"},{"email":"nimit19@gmail.com","password":"$2a$12$v4d4nmpBD6MgzrgJXFUUr.8MeCBpNnBa/.eUZx4N3HuaDzjsNmqb2","id":"2fa0f3f2-504d-4001-80c8-3b11593f4532"},{"email":"nimitnp19@gmail.com","password":"$2a$12$yrE8MzxKdU1YGwsf0Cax/OSpakRt9IM4CZzc5O3nSd5SBuAX5tgTa","id":"af920b05-9820-4256-b645-fb4aa392adc1"}]}
+{
+  "events": [
+    {
+      "title": "A new event",
+      "image": "https://cdn.muenchen-p.de/fl_progressive,q_65/.imaging/stk/responsive/teaser300/dms/va-2016/muenchner-christkindlmarkt/christkindlmarkt-marienplat-logo-hp/document/christkindlmarkt-marienplat-logo-hp.jpg",
+      "date": "2022-10-01",
+      "description": "Some awesome event!    okkk",
+      "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"
+    }
+  ],
+  "users": [
+    {
+      "email": "nik@gmail",
+      "password": "$2a$12$4sk0XLWS/Q8.bc/M4vqKFOVn/VVXsRSQ5t5BUWko7Xkby33BD.xnO",
+      "id": "94dfd28a-224c-4a83-ba67-cfbdce06dff1"
+    },
+    {
+      "email": "nik@gmail.com",
+      "password": "$2a$12$mPIiwOBlAqQIhsNHHiJSn.VWgQvFW1CnNRlaGpVHC5kevifsFXhVO",
+      "id": "7c09ecb3-72cf-48fc-a99f-8498fa67c728"
+    },
+    {
+      "email": "nimit19@gmail.com",
+      "password": "$2a$12$v4d4nmpBD6MgzrgJXFUUr.8MeCBpNnBa/.eUZx4N3HuaDzjsNmqb2",
+      "id": "2fa0f3f2-504d-4001-80c8-3b11593f4532"
+    },
+    {
+      "email": "nimitnp19@gmail.com",
+      "password": "$2a$12$yrE8MzxKdU1YGwsf0Cax/OSpakRt9IM4CZzc5O3nSd5SBuAX5tgTa",
+      "id": "af920b05-9820-4256-b645-fb4aa392adc1"
+    },
+    {
+      "email": "nimit1907@gmail.com",
+      "password": "$2a$12$zOd05cVuHqZ/gl9j9to0tOYHi033AxlZy6iE63ityyImzeCbBTIRC",
+      "id": "0f11adf1-9d23-4a6d-bca2-0ef1bc7d0f5f"
+    }
+  ]
+}

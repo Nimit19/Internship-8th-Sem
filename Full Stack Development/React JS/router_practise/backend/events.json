@@ -1,1 +1,18 @@
-{"events":[{"title":"GG","image":"https://firebasestorage.googleapis.com/v0/b/clg-placement-system.appspot.com/o/user_images%2F2oCkdKTCzEYBK87BZXWi8dMdAcc2.jpg?alt=media&token=a906c161-cfe3-4f68-8c06-a531395aa346","date":"2024-01-14","description":"OK, GG is the kindest person I have ever seen. hahahaha","id":"163b0f59-bd99-4275-bb48-d4eb0f7e2132"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}
+{
+  "events": [
+    {
+      "title": "GG",
+      "image": "https://firebasestorage.googleapis.com/v0/b/clg-placement-system.appspot.com/o/user_images%2F2oCkdKTCzEYBK87BZXWi8dMdAcc2.jpg?alt=media&token=a906c161-cfe3-4f68-8c06-a531395aa346",
+      "date": "2024-01-14",
+      "description": "OK, GG is the kindest person I have ever seen. hahahaha",
+      "id": "163b0f59-bd99-4275-bb48-d4eb0f7e2132"
+    },
+    {
+      "id": "e1",
+      "title": "A dummy event",
+      "date": "2023-02-22",
+      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
+      "description": "Join this amazing event and connect with fellow developers."
+    }
+  ]
+}

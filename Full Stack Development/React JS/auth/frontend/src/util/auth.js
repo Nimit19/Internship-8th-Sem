@@ -16,5 +16,5 @@ export const checkAuthLoader = () => {
     return redirect("/auth?mode=login");
   }
 
-  return;
+  return null;
 };
