@@ -889,17 +889,395 @@ Today's task:
 Blockers:
 none
 ________________________________________________________________________________________
+Name: Nimit Patel
+Date: 18/03/2024
+Time Spent: 8 Hours 
 
-TODO: connect to Postgres -> Done
-TODO: One to Many -> Done
-TODO: Authentication  -> Done
-TODO: Authorazation -> Done
-TODO: Passport JS 
-TODO: JoI Validation -> Done
-TODO: Migration -> Done
-TODO: caching 
-TODO: Photo Upload
+Today's task:
+1. add a joi Validation
+2. learning Proper File Structure
+3. Web Socket
 
+Blockers:
+none
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 19/03/2024
+Time Spent: 8 Hours 
+
+Today's task:
+1. Class Diagram of Food Delivery Website
+2. setup typeORM & Folder Structure for Food Delivery Website
+
+Blockers:
+none
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 20/03/2024
+Time Spent: 8 Hours 
+
+Today's task:
+1. completed class Diagram of Food Delivery Website
+
+Blockers:
+none
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 21/03/2024
+Time Spent: 8 Hours 
+
+Today's task:
+Learning to maintain gitlog & branches
+Created all entities of food delivery website
+adding realtions to the entities
+
+Blockers:
+none
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 22/03/2024
+Time Spent: 8 Hours 
+
+Today's task:
+1. Generating Table using Migration
+2. Adding Authentication
+3. CRUD Operation On UserProfile
+
+Blockers:
+none
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 26/03/2024
+Time Spent: 8 Hours 
+
+Today's task:
+created API For food delivery website
+
+Blockers:
+none
+________________________________________________________________________________________
+Name: Nimit Patel
+Date: 27/03/2024
+Time Spent: 8 Hours 
+
+Today's task:
+Update table using migreration
+Creating Restaurants Routes & Controllers
+Creating Food Routes & Controllers
+
+
+Blockers:
+none
+______________________________________________________
+Name: Nimit Patel
+Date: 28/03/2024
+Time Spent: 8 Hours 
+
+Today's task:
+
+
+Blockers:
+none
+______________________________________________________
+Name: Nimit Patel
+Date: 29/03/2024
+Time Spent: 8 Hours 
+
+Today's task:
+Creating Role Table
+Creating Propular Racipe Category API
+
+
+Blockers:
+none
+______________________________________________________
+Name: Nimit Patel
+Date: 1/0/2024
+Time Spent: 8 Hours 
+
+Today's task:
+
+
+Blockers:
+none
+______________________________________________________
+Name: Nimit Patel
+Date: 2/0/2024
+Time Spent: 8 Hours 
+
+Today's task:
+Integrate the Auth api
+
+Blockers:
+none
+______________________________________________________
+Name: Nimit Patel
+Date: 3/04/2024
+Time Spent: 8 Hours 
+
+Today's task:
+Integrate the Restaurants API
+
+Blockers:
+none
+______________________________________________________
+Name: Nimit Patel
+Date: 4/04/2024
+Time Spent: 8 Hours 
+
+Today's task:
+Integrate the Cart API
+Integrate the Popular Recipe API
+
+Blockers:
+none
+______________________________________________________
+Name: Nimit Patel
+Date: 4/04/2024
+Time Spent: 8 Hours 
+
+Today's task:
+Integrate the Search logic
+Integrate the Order API
+
+Blockers:
+none
+______________________________________________________
+Name: Nimit Patel
+Date: 8/04/2024
+Time Spent: 8 Hours 
+
+Today's task:
+Integrate the Coupon API
+Integrate the Order API
+Created the OrderPage
+
+Blockers:
+none
+______________________________________________________
+Name: Nimit Patel
+Date: 9/04/2024
+Time Spent: 8 Hours
+
+Today's task:
+Integrate the Payment API
+
+Blockers:
+none
+______________________________________________________
+Name: Nimit Patel
+Date: 10/04/2024
+Time Spent: 8 Hours 
+
+Today's task:
+- After payment Update the Payment history
+- Changes on the Cart UI
+- Learning basic of Tailwind CSS
+
+
+Blockers:
+none
+______________________________________________________
+Name: Nimit Patel
+Date: 11/04/2024
+Time Spent: 8 Hours 
+
+Today's task:
+- Make a basic website using Tailwind
+
+
+Blockers:
+none
+______________________________________________________
+Name: Nimit Patel
+Date: 12/04/2024
+Time Spent: 8 Hours 
+
+Today's task:
+- Learning Next Js
+
+
+Blockers:
+none
+______________________________________________________
+Name: Nimit Patel
+Date: 22/04/2024
+Time Spent: 8 Hours 
+
+Today's task:
+- Learning Responsive using Tailwind
+- Covert basic ui into Tailwind
+
+
+Blockers:
+none
+______________________________________________________
+Name: Nimit Patel
+Date: 24/04/2024
+Time Spent: 8 Hours 
+
+Today's task:
+Understanding File-based Routing & React Server Components
+Navigating Between pages
+Working with pages & Layouts
+Configuring Dynamic routes
+Optimizing Images with NextJS Image Component
+Server Components vs Client Components
+Fetching data using fullstack capabilities of NextJS
+Loading Page
+Suspense for Loading State Management
+Handling Errors
+Handling Not found States
+
+Blockers:
+none
+______________________________________________________
+Name: Nimit Patel
+Date: 25/04/2024
+Time Spent: 8 Hours 
+
+Today's task:
+Created Custom Image Picker
+Adding an Image Preview to the Picker
+Used the Server Actions fro Handling Form submission
+Storing Uploaded Images into local Machine
+Managing the form submission Status with useFormStatus
+Understanding the NextJS catching
+Triggering catch Revalidations
+Storing Uploaded images in the Cloud(AWS S3)
+Adding Static & Dynamic MetaData
+Working With Parallel Routes & Nested Routes
+Configuring Catch-All Routes
+Catch-All Fallback Routes & Dealing with multiple Routes
+Sever vs Client Components
+
+Blockers:
+none
+______________________________________________________
+Name: Nimit Patel
+Date: 02/05/2024
+Time Spent: 8 Hours 
+
+Today's task:
+Nested Routes Inside Dynamic Routes
+Intercepting Navigation & Using Interception Routes
+Combining Routes Parallel & Intercepting Routes'
+Navigation Programmatically
+Understanding Route Groups
+Building APIs with Route Handlers
+Use Middleware
+
+Blockers:
+none
+______________________________________________________
+Name: Nimit Patel
+Date: 03/05/2024
+Time Spent: 8 Hours 
+
+Today's task:
+Client-side data fetching
+Sever-side data fetching
+Showing loading Fallback
+Data fetching With Suspense
+Setting up Form Action
+Storing Data in Database
+
+Blockers:
+none
+______________________________________________________
+Name: Nimit Patel
+Date: 06/05/2024
+Time Spent: 8 Hours 
+
+Today's task:
+Providing User Feedback with The useFormStatus Hook 
+Understand the useFormState Hook
+Validating User Input
+Upload image on Cloudinary
+Revalidating Data to avoid Catching Problems
+Performing Optimistic Updates with NextJS
+Caching difference: Development vs Production
+Making Sense of NextJS Caching Type
+   - request memoization
+   - Data Caching
+   - Full Routes Catch
+On-Demand Cache Invalidation with revalidatePath & revalidateTag
+Understanding the User Authentication Work
+Uses Lucia For Authentication
+Configuring A Session & A Session Cookie
+Verifying An Active Session
+Protecting Routes Against Unauthenticated Access
+Switching Auth Modes With Query Parameters
+
+
+Blockers:
+none
+______________________________________________________
+Name: Nimit Patel
+Date: 07/05/2024
+Time Spent: 8 Hours 
+
+Today's task:
+- Made a Authentication Page for Food Plaza
+- Creating Add Client Form Modal of Docuprop
+- Get Form Data & Validate 
+
+Blockers:
+none
+______________________________________________________
+Name: Nimit Patel
+Date: 08/05/2024
+Time Spent: 8 Hours 
+
+Today's task:
+- CRUD Using Supabase in Docuprop
+- Learning Authentication using Supabase 
+
+Blockers:
+none
+______________________________________________________
+Name: Nimit Patel
+Date: 13/05/2024
+Time Spent: 8 Hours 
+
+Today's task:
+- Learn to how upgrade subscription using stripe
+
+Blockers:
+none
+______________________________________________________
+Name: Nimit Patel
+Date: 14/05/2024
+Time Spent: 8 Hours 
+
+Today's task:
+- Create a Template List UI of Docuprop
+- Adding Slug To Template table 
+- Implemented handling of Slug instead of id
+
+Blockers:
+none
+______________________________________________________
+
+
+- accessToken: Done
+- Name Convectional: Done
+- Separate the API Slice: Done
+- preHeader function: Done
+- Error Handling middleware rtk Queries: Done
+- Use Cookie for Token
+- Don't Call the all data in Restaurant
+- image in index.ts
+- Complete the OrderPage
+- Coupon API
+- Make Changes On Payment API
+- Food Data adding
+- Upload Images of user
+- Make Changes on AccountMenu models
+- Auth in RTK Query
+- Handling Loader using loader component or something else
+- handling the Toast success & warning 
+- Handling dialog that ask for confirmation
 
 
 2 Remaining 
@@ -934,10 +1312,10 @@ _________
 
 
 Er Diagram
-user rolemanagment 
+user rolemangment 
 which 
 admin and user
-user roles interface dasboard
+user roles interface dashboard
 
 - web system 
 - compnay admin & emplyee

@@ -62,7 +62,7 @@ const updateEventByIdHandler = async (req: Request, res: Response) => {
     let event = await eventRepo.findOne({ where: { id: eventId } });
 
     if (!event) {
-      return res.status(404).send("Profile not found");
+      return res.status(404).send("event not found");
     }
 
     if (event.auth.id !== userId) {
