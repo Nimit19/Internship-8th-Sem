@@ -39,9 +39,9 @@ const RestaurantDetailsSection: React.FC<PropsType> = async ({
     longitude,
   } = restaurant;
   return (
-    <div className="my-4 flex flex-col items-center lg:flex-row lg:gap-10 lg:items-start lg:mt-16 lg:mb-10">
+    <div className="my-4 flex flex-col items-center lg:flex-row lg:gap-10 lg:items-start lg:mt-16 lg:mb-10 ">
       <img
-        className="w-44 h-44 lg:w-56 lg:h-56 "
+        className="w-44 h-44 lg:w-56 lg:h-56 rounded-full"
         src={shop_logo_url}
         alt={shop_name}
       />
@@ -54,14 +54,14 @@ const RestaurantDetailsSection: React.FC<PropsType> = async ({
         <p className="text-[#999999] lg:text-md">
           {address.city}, {address.state}
         </p>
-        <p className="flex }tems-center flex-col text-[#999999] lg:flex-row-reverse lg:gap-3 lg:text-md">
+        <p className="flex items-center flex-col text-[#999999] lg:flex-row-reverse lg:gap-3 lg:text-md">
           <span>
             {" "}
             {opening_time} – {closing_time} (Today)
           </span>
           <span>{is_open ? "Open now" : "Close"}</span>
         </p>
-        <div className="flex gap-2 py-2 w-full">
+        <div className="flex gap-2 py-2 lg:w-[500px]">
           <Button
             intent="secondary"
             className="text-xs sm:text-sm lg:text-md lg:w-full"

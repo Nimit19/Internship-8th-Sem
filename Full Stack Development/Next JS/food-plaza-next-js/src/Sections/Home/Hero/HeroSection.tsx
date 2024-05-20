@@ -1,12 +1,9 @@
+import ImageSlideshow from "@/components/ImageSlideShow";
 import React from "react";
 const HeroSection = () => {
   return (
-    <div
-      className="relative min-w-full h-[40vh] bg-cover bg-center sm:h-[40vh] md:h-[50vh]"
-      style={{
-        backgroundImage: `url("https://s3-alpha-sig.figma.com/img/14a4/e8be/2dfca0f37cc7f0bd316347a32de67139?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PlEDG2e~TnawZajBbotXipwQzCgNiP2Rifg47SQFGifnzuMFYd3KOv9rF35ZuI88skaw35HEYH6i-NagJB6q58H1HyGbvYMmfi50W4CU7VpUfxQXG1oQtiW-JSgVffopfSDu77Y9J6J3bXlclPUyjAqsKJlGFOn9uqcCihL4zluiS~IQC6TSx5hBTdqMiWskM4BsObwBBtwrmSJwGq27wXtLgkU3SRnYlWjPVbhyGXFtu1HjxWQsNAVjOnB82MUp2SjsNuwESTt-0dYAm~V8Fwz7HOdtjhgfwSd239UMKNpxXgjQN3NYHw2IbCufdkY-RCTDzgsYrZ0kqNCUF9YQBA__")`,
-      }}
-    >
+    <div className="relative min-w-full h-[40vh] bg-cover bg-center sm:h-[40vh] md:h-[60vh] overflow-hidden">
+      <ImageSlideshow />
       <div className="absolute inset-0 bg-black opacity-60" />
       <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
         <p className="text-center uppercase text-4xl sm:text-5xl ">

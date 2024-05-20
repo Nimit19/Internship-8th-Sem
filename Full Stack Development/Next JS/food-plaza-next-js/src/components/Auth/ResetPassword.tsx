@@ -2,7 +2,7 @@
 
 import { useFormState, useFormStatus } from "react-dom";
 import React from "react";
-import { resetPassword } from "@/app/actions/auth/auth";
+import { resetPassword } from "@/actions/auth/auth";
 import { findErrorMessage } from "@/utils/findErrorMessage";
 import { Button } from "../ui/button";
 import AuthContentWrapper from "@/Layouts/AuthContentWrapper";

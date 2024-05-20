@@ -32,3 +32,14 @@ export const getRestaurantFoodCategory = async (restaurantId: number) => {
 
   return { restaurantFoodCategories, error };
 };
+
+export const getRestaurantFoodItemsByCategory = async (categoryId: number) => {
+  const supabase = createClient();
+
+  let { data: foodItems, error } = await supabase
+    .from("food_items")
+    .select("*")
+    .eq("restaurant_food_category_id", categoryId);
+
+  return { foodItems, error };
+};

@@ -2,7 +2,7 @@
 
 import { useFormState, useFormStatus } from "react-dom";
 import React from "react";
-import { forgotPassword } from "@/app/actions/auth/auth";
+import { forgotPassword } from "@/actions/auth/auth";
 import { findErrorMessage } from "@/utils/findErrorMessage";
 import InputWithLabel from "../TextFields/InputFields";
 import AuthContentWrapper from "@/Layouts/AuthContentWrapper";

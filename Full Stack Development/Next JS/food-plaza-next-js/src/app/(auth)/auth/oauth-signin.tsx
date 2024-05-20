@@ -1,5 +1,5 @@
 "use client";
-import { oAuthSignIn } from "@/app/actions/auth/oauth-signin";
+import { oAuthSignIn } from "@/actions/auth/oauth-signin";
 import GithubIcon from "@/svgs/GithubIcon";
 import GoogleIcon from "@/svgs/GoogleIcon";
 import { Provider } from "@supabase/supabase-js";

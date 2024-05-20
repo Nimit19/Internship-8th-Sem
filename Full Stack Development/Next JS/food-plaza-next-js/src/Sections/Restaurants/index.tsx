@@ -5,8 +5,7 @@ import React from "react";
 import RestaurantDetailsSection from "./RestaurantDetailsSection";
 import RestaurantMenuSection from "./RestaurantMenuSection";
 import { notFound } from "next/navigation";
-import { getRestaurant } from "@/app/actions/restaurants/restaurants";
-import RestaurantCategorySection from "../RestaurantsFoodItem/RestaurantsCategory/RestaurantCategorySection";
+import { getRestaurant } from "@/actions/restaurants/restaurants";
 
 type PropsType = {
   id: number;

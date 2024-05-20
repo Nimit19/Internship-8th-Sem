@@ -3,11 +3,10 @@ import { cva, VariantProps } from "class-variance-authority";
 const button = cva("font-semibold shadow-sm ", {
   variants: {
     intent: {
-      primary:
-        "bg-primary text-white hover:bg-btn-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-600",
+      primary: "bg-primary text-white hover:bg-secondary",
       secondary:
-        "bg-transparent text-primary ring-1 ring-inset ring-primary hover:bg-btn-hover hover:text-white",
-      soft: "bg-[#ECEEF6] text-black  hover:bg-btn-hover hover:text-white",
+        "bg-transparent text-primary ring-1 ring-inset ring-primary hover:bg-secondary hover:text-white",
+      soft: "bg-[#ECEEF6] text-black  hover:bg-secondary hover:text-white",
     },
     size: {
       xs: "text-xs",

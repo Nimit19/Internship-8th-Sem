@@ -1,27 +1,23 @@
 "use client";
 import { Button } from "@/components/ui/button";
+import useWindowWidth from "@/hooks/useWindowWith";
 import ContentWrapper from "@/Layouts/ContentWrapper";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
-const dummyData = ["Pizza", "Sides", "Chicken", "Dessert", "Drinks"];
+type PropType = {
+  popularFoodCategory: { food_category_name: string | null; id: number }[];
 
-const PopularRecipesCategories = () => {
-  const [windowWidth, setWindowWidth] = useState(
-    typeof window !== "undefined" ? window.innerWidth : 0
+  onChangeCategory: (categoryId: number) => void;
+};
+
+const PopularRecipesCategories: React.FC<PropType> = ({
+  popularFoodCategory,
+  onChangeCategory,
+}) => {
+  const windowWidth = useWindowWidth();
+  const [selectedCategory, setSelectedCategory] = useState<number>(
+    popularFoodCategory[0].id
   );
-
-  const updateWindowWidth = () => {
-    setWindowWidth(typeof window !== "undefined" ? window.innerWidth : 0);
-  };
-
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      window.addEventListener("resize", updateWindowWidth);
-      return () => {
-        window.removeEventListener("resize", updateWindowWidth);
-      };
-    }
-  }, []);
 
   return (
     <ContentWrapper>
@@ -30,18 +26,28 @@ const PopularRecipesCategories = () => {
       </p>
       <div className=" flex justify-center">
         <div className="flex justify-start gap-3 overflow-x-auto no-scrollbar ">
-          {dummyData.map((data) => {
-            return (
-              <Button
-                intent={"soft"}
-                rounded={"full"}
-                size={windowWidth < 768 ? "sm" : "md"}
-                className="min-h-[35px] min-w-[100px] md:h-[55px] md:w-[150px]"
-              >
-                {data}
-              </Button>
-            );
-          })}
+          {popularFoodCategory &&
+            popularFoodCategory.map((data) => {
+              return (
+                <Button
+                  key={data.id}
+                  intent={"soft"}
+                  rounded={"full"}
+                  size={windowWidth < 768 ? "sm" : "md"}
+                  className={`min-h-[35px] min-w-[100px] md:h-[55px] md:w-[150px] ${
+                    selectedCategory === data.id
+                      ? "bg-secondary text-white"
+                      : ""
+                  }`}
+                  onClick={() => {
+                    setSelectedCategory(data.id);
+                    onChangeCategory(data.id);
+                  }}
+                >
+                  {data.food_category_name}
+                </Button>
+              );
+            })}
         </div>
       </div>
     </ContentWrapper>

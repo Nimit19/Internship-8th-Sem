@@ -2,7 +2,7 @@
 import React from "react";
 
 import { useFormState } from "react-dom";
-import { login, signup } from "@/app/actions/auth/auth";
+import { login, signup } from "@/actions/auth/auth";
 
 import AuthForm from "./AuthForm";
 

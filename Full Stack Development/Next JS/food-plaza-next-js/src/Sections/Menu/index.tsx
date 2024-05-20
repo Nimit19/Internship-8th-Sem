@@ -1,8 +1,9 @@
-import { getLogoAndImageUrl } from "@/app/actions/restaurants/restaurants";
+import {
+  getLogoAndImageUrl,
+  getRestaurantFoodCategory,
+} from "@/actions/restaurants/restaurants";
 import RestaurantLogo from "@/components/Menu/RestaurantLogo";
 import HeaderText from "@/components/ui/header-text";
-import ContentWrapper from "@/Layouts/ContentWrapper";
-import { createClient } from "@/utils/supabase/client";
 import React from "react";
 
 const MenuSection = async () => {
